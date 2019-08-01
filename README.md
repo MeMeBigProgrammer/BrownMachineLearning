@@ -1,4 +1,4 @@
-# Summer @ Brown MachineLearning
+# Summer @ Brown Machine Learning
 I attended a three week Machine Learning course taught at Brown University during the summer of 2019. These are copies of the Programming notes, and some of the programs I wrote. 
 
 In this Repo, there is code for the following:
