@@ -1,0 +1,10 @@
+Although extremely well known, it is necessary at the outset to give a brief outline of the argument for completeness. Searle envisages a situation in which he is hidden in a room and is presented questions in Chinese written on an ‘input’ card, posted in to his room by unseen enquirers. Searle knows no Chi-
+nese; indeed, he is quite unaware of the enterprise in which he is engaged and
+is ignorant of the fact that the strange marks on the cards represent questions
+framed in Chinese. He consults a manual telling him (in English) precisely what
+equally strange marks to write on an ‘output’ card, which he posts back to the
+outside world. By virtue of the ‘machine intelligence’ embodied in the manual
+(which is actually a formalisation of the steps in an AI program), these marks
+on the output card constitute an answer to any input question. To a Chinese
+speaker external to the room, by virtue of its question answering ability, the
+system passes the Turing test for machine intelligence
