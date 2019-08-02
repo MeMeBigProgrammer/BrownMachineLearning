@@ -3,7 +3,7 @@ import numpy as np
 import random
 words = []
 
-with open ("wordlists/mueller.txt", "r") as myfile:
+with open ("wordlists/metamorphosis.txt", "r") as myfile:
     data=myfile.readlines()
     for word in data:
         extender = []

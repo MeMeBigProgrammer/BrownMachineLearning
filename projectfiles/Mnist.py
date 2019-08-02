@@ -98,11 +98,20 @@ if __name__ == "__main__":
         tmp = np.frombuffer(tmp, dtype=np.dtype('b'), offset=8)
         train_lb = tmp[0:10000]
 
+
+
+
     weights = Randomize_Weights(np.zeros((10, 784)))
     biases = np.zeros(10)
     print("BEFORE TRAINING")
     Test_NN(weights, biases)
     print("TRAINING")
-    weights, biases = Train_NN(weights, biases, 100, .1, .2, train_im, train_lb)
+    weights, biases = Train_NN(weights, biases, 20, .1, .2, train_im, train_lb)
     print("AFTER TRAINING")
     Test_NN(weights, biases)
+
+    for index,x in enumerate(weights):
+        print(index)
+        image = np.reshape(x, (28,28))
+        plt.imshow(image)
+        plt.show()
